@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: start;
+    gap: 4vmax;
+    background-image: url(https://images.unsplash.com/photo-1611329857530-61d261e393e0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.heading{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(7, 7, 93);
+    color: white;
+}
+.heading > h1{
+    padding: 0.7vmax 0vmax;
+}
+.images{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    align-items: center;
+    justify-content: center;
+    gap: 2vmax;
+}
+.images > .choice{
+    background-color: blueviolet;
+    height: 13vmax;
+    width: 13vmax;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.866);
+}
+.images > .choice:hover{
+    cursor: pointer;
+    background-color: black;
+    border: 5px solid black;
+}
+.images img{
+    height: 13vmax;
+    width: 13vmax;
+    border-radius: 50%;
+}
+.score {
+   
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 5vmax;
+}
+.userscore , .computerscore{
+    font-size: 7vmax;
+    color: rgb(16, 16, 139);
+
+}
+.you >p , .computer > p{
+    color: white;
+    font-size: 2.6vmax;
+}
+.msg-container{
+    display: flex;
+    justify-content: center;
+}
+.msg {
+    height: 4vmax;
+    width: 29vmax;
+    background-color: rgb(16, 16, 139);
+    padding: 1vmax 0vmax;
+    color: white;
+    border-radius: 1vmax;
+    font-size: 2vmax;
+}
